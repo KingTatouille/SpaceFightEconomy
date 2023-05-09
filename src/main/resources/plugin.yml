@@ -1,0 +1,13 @@
+name: SpaceFightEconomy
+version: '${project.version}'
+main: hillwalk.fr.spacefighteconomy.SpaceFightEconomy
+api-version: 1.12
+depend:
+  - Vault
+commands:
+  balance:
+    description: Affiche votre solde actuel.
+    usage: /<command>
+  pay:
+    description: Donne un montant d'argent spécifié à un joueur cible.
+    usage: /<command> <joueur> <montant>
